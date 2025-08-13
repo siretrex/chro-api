@@ -4,7 +4,8 @@ const { generateToken } = require('../utils/jwt');
 
 // POST /api/auth/login
 const loginUser = async (req, res) => {
-  console.log('inside login')
+  console.log('inside login' , req.body)
+  console.log('inside login' , req.body)
   try {
     const { email, password } = req.body;
 
