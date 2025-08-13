@@ -1,3 +1,4 @@
+
 const bcrypt = require('bcryptjs');
 const User = require('../models/user');
 const { generateToken } = require('../utils/jwt');
@@ -46,4 +47,3 @@ const registerUser = async (req, res) => {
 };
 
 module.exports = registerUser ;
-

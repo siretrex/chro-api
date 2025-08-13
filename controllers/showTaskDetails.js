@@ -1,3 +1,4 @@
+
 const Task = require("../models/task");
 
 const sendTaskDetails = async (req, res) => {
@@ -17,4 +18,3 @@ const sendTaskDetails = async (req, res) => {
 
 
 module.exports = sendTaskDetails;
-
