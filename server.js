@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 });
 
 app.post("/register", register);
-app.post("/login", loginUser);
+app.get("/login", loginUser);
 app.post("/addtask", addNewTask);
 app.post("/task/details", sendTaskDetails);
 app.post("/task/update", updateTask);
@@ -48,3 +48,4 @@ app.post("/task/update", updateTask);
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
