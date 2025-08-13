@@ -3,6 +3,7 @@ const User = require('../models/user');
 const { generateToken } = require('../utils/jwt');
 
 const registerUser = async (req, res) => {
+  console.log("register hit")
   try {
     const { name, email, phone, password } = req.body;
     if (phone.length != 10 ){
@@ -45,3 +46,4 @@ const registerUser = async (req, res) => {
 };
 
 module.exports = registerUser ;
+
