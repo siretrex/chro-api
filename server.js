@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3000;
 connectToDB();
 
 const allowedOrigins = [
-  "https://siretrex.github.io",
+  "https://chronotrex.netlify.app/",
   "http://localhost:5173/",
   "http://127.0.0.1:3000"
 ];
